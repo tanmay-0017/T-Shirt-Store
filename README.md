@@ -45,13 +45,13 @@ A simple and responsive e-commerce web application for browsing and purchasing t
 2. Install the dependencies:
 
    ```sh
-  npm install
+   npm install
 
 ### Running the Application
 
 1. Start the development server:
 
    ```sh
-  npm start
+   npm start
 
 2. Open your browser and navigate to `http://localhost:3000`.
