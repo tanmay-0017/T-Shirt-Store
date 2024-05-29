@@ -27,12 +27,8 @@ const ProductList = ({ products, addToCart }) => {
     );
 
   const handleAddToCart = (product) => {
-    if (product.stock > 0) {
-      addToCart(product);
-      setError('');
-    } else {
-      setError('This item is out of stock.');
-    }
+    addToCart(product); // Directly add the product to the cart
+    setError(''); // Clear any previous error messages
   };
 
   return (

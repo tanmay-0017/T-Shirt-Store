@@ -22,10 +22,11 @@ A simple and responsive e-commerce web application for browsing and purchasing t
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home_page.png)
+<img width="1440" alt="Screenshot 2024-05-29 at 5 34 00 PM" src="https://github.com/tanmay-0017/T-Shirt-Store/assets/97460992/530dcb96-79ce-43a3-96d4-49e02d664bc9">
+
 
 ### Cart Page
-![Cart Page](screenshots/cart_page.png)
+<img width="1440" alt="Screenshot 2024-05-29 at 5 33 45 PM" src="https://github.com/tanmay-0017/T-Shirt-Store/assets/97460992/9466b34d-f864-4a48-807e-0d761db8f0e9">
 
 ## Getting Started
 
