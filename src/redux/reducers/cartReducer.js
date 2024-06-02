@@ -7,7 +7,9 @@ const initialState = {
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TO_CART:
+      // console.log(action.payload);
       const existingItem = state.cartItems.find(item => item.id === action.payload.id);
+      // console.log(existingItem && existingItem.quantity < action.payload.availability);
       if (existingItem) {
         return {
           ...state,
@@ -18,6 +20,11 @@ const cartReducer = (state = initialState, action) => {
           )
         };
       }
+      // if (action.payload.availability === 0){
+      //   return {
+      //     ...state
+      //   };
+      // }
       return {
         ...state,
         cartItems: [...state.cartItems, { ...action.payload, quantity: 1 }]
